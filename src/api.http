@@ -2,7 +2,7 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-  "title": "New event 3",
+  "title": 123,
   "details": "null",
   "maximumAttendees": 1
 }
@@ -24,3 +24,12 @@ GET http://localhost:3333/events/ffa4bd65-1b89-464f-9353-d413ba464db4
 
 ###
 GET http://localhost:3333/attendees/4/badge
+
+###
+GET http://localhost:3333/attendees/4/check-in
+
+###
+GET http://localhost:3333/events/ffa4bd65-1b89-464f-9353-d413ba464db4/attendees
+
+###
+GET http://localhost:3333/events/ffa4bd65-1b89-464f-9353-d413ba464db4/attendees?query=diego

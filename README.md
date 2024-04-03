@@ -18,7 +18,9 @@
     "dev": "tsx watch --env-file .env src/server.ts"
   npm i zod para validaçao
   npm i fastify-type-provider-zod
-  
+  npm i @fastify/swagger
+  npm i @fastify/swagger-ui
+  npm i @fastify/cors
 ```
 
 O pass.in é uma aplicação de gestão de participantes em eventos presenciais.
