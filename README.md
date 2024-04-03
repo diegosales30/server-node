@@ -21,6 +21,7 @@
   npm i @fastify/swagger
   npm i @fastify/swagger-ui
   npm i @fastify/cors
+  npm i tsup -D  para build
 ```
 
 O pass.in é uma aplicação de gestão de participantes em eventos presenciais.
