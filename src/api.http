@@ -1,0 +1,26 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+  "title": "New event 3",
+  "details": "null",
+  "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/ffa4bd65-1b89-464f-9353-d413ba464db4/attendees
+Content-Type: application/json
+
+{
+  "name": "Diego sales",
+  "email": "diego2@email.com"
+}
+
+###
+
+GET http://localhost:3333/events/ffa4bd65-1b89-464f-9353-d413ba464db4
+
+
+###
+GET http://localhost:3333/attendees/4/badge
